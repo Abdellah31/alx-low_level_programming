@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.ih>
+#include <stdio.h>
 /**
  * main - check the code.
  *
@@ -8,7 +8,6 @@
 int main(void)
 {
 char c;
-
 c = 'A';
 printf("%c: %d\n", c, _isupper(c));
 c = 'a';
