@@ -1,9 +1,14 @@
 #include "lists.h"
 
 /**
+
  * FREE_LISTINT2 - FREES A LINKED LIST
+
+
  * @head:pointer the listint_t list to be freed
- */
+
+
+*/
 void free_listint2(listint_t **head)
 {
 	listint_t *temp;

@@ -1,12 +1,19 @@
 #include "lists.h"
 
 /**
+
+
  * add_nodeint_end - ADDS A NODE AT THE end of A LINKED LIST
+
  * @head: POINTER TO  THE FIRST ELEMENT IN THE LIST
+
  * @n: DATA TO INSERT IN THE NEW ELEMENT
+
  *
+
  * Return: POINTER TO  THE NEW NODE, OR NULL if IT FAILLS
- */
+
+*/
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 listint_t *new;

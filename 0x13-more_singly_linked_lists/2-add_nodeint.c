@@ -2,10 +2,16 @@
 
 /**
  * add_nodeint - ADDS A NEW NODE AT THE BEGINNIG OF A LINKED LIST
+ 
+ 
  * @head: POINTER TO THE FIRST NODE IN THE LIST
+ 
  * @n: data to insert in that new node
+ 
  *
+ 
  * Return: POINTER TO  THE NEW NODE, OR NILL IF IT FAILS
+ 
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
