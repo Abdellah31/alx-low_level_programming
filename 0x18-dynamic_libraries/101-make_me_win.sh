@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -O /tmp/win.so https://github.com/birukshegute/alx-low_level_programming/0x18-dynamic_libraries/win.so
-export LD_PRELOAD=/tmp/win.so
+wget -P /tmp/ https://raw.github.com/Tecnophille/alx-low_level_programming/master/0x18-dynamic_libraries/preload.so
+export LD_PRELOAD=/tmp/preload.so
